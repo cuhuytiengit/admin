@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+
+    <title>Trang quản trị bán nước suối</title>
+
+    <!--Core CSS -->
+    <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <!-- css user-->
+    <link href="cssuser/main.css" rel="stylesheet" type = "text/css"/>
+
+    <style>
+        .is-hidden{display:none;}
+    </style>
+    <!--ẩn đi-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="full-width">
+    
+    <section id="container" class="hr-menu">
+        <!--header start-->
+        <header class="header fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle hr-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+  
+                <!--logo start-->
+                <!--logo start-->
+                
+                <!--logo end-->
+                <!--logo end-->
+                <div class="horizontal-menu navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><i class="fa fa-home"></i>&nbsp;Trang chủ</a></li>
+  
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#">
+                                <i class="fa fa-tasks"></i> &nbsp;Danh mục<b class=" fa fa-angle-down"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class='menu_thuonghieu'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Thương Hiệu</a></li>
+                                <li class='menu_theloai'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Thể loại</a></li>
+                                <li class='menu_sanpham'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Sản phẩm</a></li>
+                                <li class='menu_khachhang'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Khách hàng</a></li>
+                                <li class='menu_nhanvien'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Nhân viên</a></li>
+                                <li class='menu_nhacungcap'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Nhà cung cấp</a></li>
+                                <li class='menu_ncc_th'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Nhà cung cấp - Thương hiệu</a></li>
+                                <li class='menu_th_sp'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Thương hiệu - Sản phẩm</a></li>
+                                <li class='menu_tl_sp'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Thể loại - Sản phẩm</a></li>
+
+                                <!-- <li class='menu_tg'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Tác giả</a></li> -->
+                                <li class='menu_khac'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Sản phẩm khác</a></li>
+                            </ul>
+                        </li>
+  
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#">
+                                <i class="fa fa-shopping-cart"></i>&nbsp;Bán hàng<b class=" fa fa-angle-down"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class='menu_ddh'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Đơn đặt hàng</a></li>
+                                <li class='menu_chitietdh'><a href="#"><i class="fa fa-hand-o-right"></i>&nbsp;Chi tiết đơn hàng</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-nav hr-top-nav">
+                    <ul class="nav pull-right top-menu">
+                        <li>
+                            <input type="text" class="form-control search" placeholder=" Search">
+                        </li>
+                        <!-- user login dropdown start-->
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <img alt="" class="myavartar">
+                                <span class="username myusername">RelloT</span>
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu extended logout">
+                                <li class='btn_change_avartar'><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                                <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                                <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
+                                <li class="btn_logout"><a href="#"><i class="fa fa-key"></i> Log Out</a></li>
+                            </ul>
+                        </li>
+                        <!-- user login dropdown end -->
+                    </ul>
+                </div>
+            </div>
+  
+        </header>
+        <!--header end-->
+        <!--sidebar start-->
+  
+        <!--sidebar end-->
+        <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">
+                <!-- page start-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!--breadcrumbs start -->
+                        <ul class="breadcrumb titlebreadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i>Trang chủ</a></li><li class="active">Đơn đặt hàng</li>
+                        </ul>
+                        <!--breadcrumbs end -->
+                    </div>
+            </section>
+        </section>
+        <!--thiết kế trang chủ-->
+        
+        <div class="form_tttl is-hidden" align='center' >
+            <h1>Thông tin thể loại</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                              Mã thể loại:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txtmatl" placeholder="Full Name">
+                          </div>
+                          <div class="col-sm-2">
+                              Tên thể loại:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txttentl" placeholder="Full Name"><br />
+                          </div>
+                          <div class="col-sm-12" align='center'>
+                            <button type="button" class="btn btn-success btn_themtheloai">Thêm</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_suatheloai">Sửa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_xoatheloai">Xóa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_lamlaitheloai">Làm lại</button>
+                          </div>
+                          
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã TL</th>
+                                            <th>Tên TL</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdstheloai">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumbertheloai"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+        <div class="form_ttthuonghieu is-hidden" align='center' >
+            <h1>Thông tin thương hiệu</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                              Mã thương hiệu:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtmath" placeholder="Full Name">
+                        </div>
+                        <div class="col-sm-2">
+                            Tên thương hiệu:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txttenth" placeholder="Full Name">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-sm-2">
+                            Số điện thoại thương hiệu:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtsdtth" placeholder="Full Name">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-sm-2">
+                            Địa chỉ thương hiệu:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtdiachith" placeholder="Full Name">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-sm-2">
+                            Email thương hiệu:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtemailth" placeholder="Full Name">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-sm-12" align='center'>
+                        <button type="button" class="btn btn-success btn_themthuonghieu">Thêm</button>&nbsp;
+                        <button type="button" class="btn btn-success btn_suathuonghieu">Sửa</button>&nbsp;
+                        <button type="button" class="btn btn-success btn_xoathuonghieu">Xóa</button>&nbsp;
+                        <button type="button" class="btn btn-success btn_lamlaithuonghieu">Làm lại</button>
+                        </div>
+                          
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã TL</th>
+                                            <th>Tên TL</th>
+                                            <th>Số điện thoại</th>
+                                            <th>Địa chỉ</th>
+                                            <th>Email</th>
+                                            <th>Sửa</th>
+                                            <th>Xóa</th>
+                                            <th>Xem</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdsthuonghieu">
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumberthuonghieu"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+    <!--SẢN PHẨM-->
+
+        <div class="form_ttsp is-hidden" align='center' >
+            <h1>Thông tin sản phẩm</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+    
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                            Mã sản phẩm:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtmasp" placeholder="Full Name">
+                        </div>
+                        <div class="col-sm-2">
+                            Tên sản phẩm:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txttensp" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Ngày sản xuất:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtngaysxsp" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Số lượng tồn:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtslt" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Ảnh:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtimgnuoc" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Giá gốc:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtgiagoc" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Giá bán hiện tại:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtgiaban" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-12" align='center'>
+                            <button type="button" class="btn btn-success btn_themsanpham">Thêm</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_suasanpham">Sửa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_xoasanpham">Xóa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_lamlaisanpham">Làm lại</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_timkiemsanpham">Tìm kiếm</button>
+                        </div>
+                        
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã SP</th>
+                                            <th>Tên SP</th>
+                                            <th>Ngày sản xuất</th>
+                                            <th>Số lượng tồn</th>
+                                            <th>Ảnh</th>
+                                            <th>Giá gốc</th>
+                                            <th>Giảm giá</th>
+                                            <th>Giá bán</th>
+                                            <th>Xem</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdssanpham">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumbersanpham"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+    <!--KHÁCH HÀNG-->
+        <div class="form_ttkhachhang is-hidden" align='center' >
+            <h1>Thông tin khách hàng</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                        <div class="col-sm-2">
+                            Mã khách hàng:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtmakh" placeholder="Full Name">
+                        </div>
+                        <div class="col-sm-2">
+                            Tên khách hàng:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txttenkh" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Số điện thoại khách hàng:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtsdtkh" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Địa chỉ khách hàng:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtdiachikh" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-2">
+                            Email khách hàng:
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control txtemailkh" placeholder="Full Name"><br />
+                        </div>
+                        <div class="col-sm-12" align='center'>
+                            <button type="button" class="btn btn-success btn_themkhachhang">Thêm</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_suakhachhang">Sửa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_xoakhachhang">Xóa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_lamlaikhachhang">Làm lại</button>
+                        </div>
+                        
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã KH</th>
+                                            <th>Tên KH</th>
+                                            <th>Số điện thoại KH</th>
+                                            <th>Địa chỉ KH</th>
+                                            <th>Email KH</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class = "listdskhachhang">
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumberkhachhang"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+        
+        <!--Nhân viên-->
+        <div class="form_ttnhanvien is-hidden" align='center' >
+            <h1>Thông tin nhân viên</h1>
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                                Mã nhân viên:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmanv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Tên nhân viên:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txttennv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Giới tính:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtgtnv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Ngày sinh:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtnsnv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Số điện thoại:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtsdtnv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Quê quán:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtquequannv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Thường trú:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtthuongtrunv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Email:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtemailnv" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Mã nhân viên quản lý:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmanvql" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-12" align='center'>
+                                <button type="button" class="btn btn-success btn_themnhanvien">Thêm</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_suanhanvien">Sửa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_xoanhanvien">Xóa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_lamlainhanvien">Làm lại</button>
+                            </div>
+                        
+                        </div>
+                            <!--Đóng form thể loại-->
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã NV</th>
+                                            <th>Tên NV</th>
+                                            <th>Giới tính</th>
+                                            <th>Ngày sinh</th>
+                                            <th>Số điện thoại</th>
+                                            <th>Quê quán</th>
+                                            <th>Thường trú</th>
+                                            <th>Email NV</th>
+                                            <th>Mã NVQL</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdsnhanvien">
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumbernhanvien"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+        <!--Nhà cung cấp-->
+        <div class="form_ttnhacungcap is-hidden" align='center' >
+            <h1>Thông tin nhà cung cấp</h1>
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                                Mã NCC:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmancc" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Tên NCC:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txttenncc" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Số điện thoại NCC:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtsdtncc" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Địa chỉ NCC:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtdiachincc" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Email NCC:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtemailncc" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-12" align='center'>
+                                <button type="button" class="btn btn-success btn_themnhacungcap">Thêm</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_suanhacungcap">Sửa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_xoanhacungcap">Xóa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_lamlainhacungcap">Làm lại</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã NCC</th>
+                                            <th>Tên NCC</th>
+                                            <th>SDT NCC</th>
+                                            <th>Địa chỉ NCC</th>
+                                            <th>Email NCC</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class = 'listdsnhacungcap'>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class = 'pagenumbernhacungcap'></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+        <!--Nhà cung cấp - thương hiệu-->
+        <div class="form_ncc_th is-hidden" align='center' >
+            <h1>Nhà cung cấp - Thương hiệu</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                              Mã nhà cung cấp:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txtmancc_nccth" placeholder="Full Name">
+                          </div>
+                          <div class="col-sm-2">
+                              Mã thương hiệu:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txtmath_nccth" placeholder="Full Name"><br />
+                          </div>
+                          <div class="col-sm-12" align='center'>
+                            <button type="button" class="btn btn-success btn_themnccth">Thêm</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_suanccth">Sửa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_xoanccth">Xóa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_lamlainccth">Làm lại</button>
+                          </div>
+                          
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã NCC</th>
+                                            <th>Mã TH</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdsnccth">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumbernccth"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+        <!--Thương hiệu - sản phẩm-->
+        <div class="form_th_sp is-hidden" align='center' >
+            <h1>Thương hiệu - Sản phẩm</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        
+                        <div class="row">
+                        <!--Form thể loại-->
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                              Mã thương hiệu:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txtmath_thsp" placeholder="Full Name">
+                          </div>
+                          <div class="col-sm-2">
+                              Mã sản phẩm:
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control txtmasp_thsp" placeholder="Full Name"><br />
+                          </div>
+                          <div class="col-sm-12" align='center'>
+                            <button type="button" class="btn btn-success btn_themthsp">Thêm</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_suathsp">Sửa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_xoathsp">Xóa</button>&nbsp;
+                            <button type="button" class="btn btn-success btn_lamlaitheloai">Làm lại</button>
+                          </div>
+                          
+                        </div>
+                        <!--Đóng form thể loại-->
+                        
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã TH</th>
+                                            <th>Mã SP</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdsthsp">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumberthsp"></div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+        <!--Thể loại - sản phẩm-->
+        <div class="form_tl_sp is-hidden" align='center' >
+            <h1>Thể loại - Sản phẩm</h1>
+            
+            <!--header end-->
+            <!--sidebar start-->
+      
+            <!--sidebar end-->
+            <!--main content start-->
+            <section id="main-content">
+                <section class="wrapper">
+                    <!-- page start-->
+                    <div class="row">
+                        <div class="row">
+                            <!--Form thể loại-->
+                            <div class="col-sm-12">
+                                <div class="col-sm-2">
+                                Mã thể loại:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmatl_tlsp" placeholder="Full Name">
+                            </div>
+                            <div class="col-sm-2">
+                                Mã sản phẩm:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmasp_tlsp" placeholder="Full Name"><br />
+                            </div>
+                            <div class="col-sm-12" align='center'>
+                                <button type="button" class="btn btn-success btn_themtlsp">Thêm</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_suatlsp">Sửa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_xoatlsp">Xóa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_lamlaitlsp">Làm lại</button>
+                            </div>
+                            </div>
+                            <!--Đóng form thể loại-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Mã TL</th>
+                                            <th>Mã SP</th>
+                                            <th>Xóa</th>
+                                            <th>Sửa</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listdstlsp">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumbertlsp"></div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+      
+        <!-- don dat hang-->
+        <div class="form_thongtindonhang is-hidden">
+            <h1 align='center'>Thông tin các đơn hàng</h1>
+            <section id="main-content">
+                <section class="wrapper">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+                                Mã DDH:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmaddh" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Ngày mua:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtngayddh" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Trạng thái:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txttrangthaiddh" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Ngày dự kiến giao:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtngaydukiengiao" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Ngày thực tế giao:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtngaythuctegiao" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Mã khách hàng:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmakhddh" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-2">
+                                Mã nhân viên:
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control txtmanvddh" placeholder="Full Name">
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="col-sm-12" align='center'>
+                                <button type="button" class="btn btn-success btn_themdondathang">Thêm</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_suadondathang">Sửa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_xoadondathang">Xóa</button>&nbsp;
+                                <button type="button" class="btn btn-success btn_lamlaidondathang">Làm lại</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Số ĐĐH</th>
+                                            <th>Ngày mua</th>
+                                            <th>Trạng thái</th>
+                                            <th>Ngày giao dự kiến</th>
+                                            <th>Ngày giao thực tế</th>
+                                            <th>Mã Khách hàng</th>
+                                            <th>Mã Nhân viên</th>
+                                            <th>Xem</th>
+                                            <th>Xử lý đơn hàng</th>
+                                            
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listallddh listdsdondathang">
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div align="center" class= "pagenumberdondathang"></div>
+                            </section>
+                        </div>
+                    </div>
+                    <!--modal 2/12/2020-->
+                    <div class="modal fade showxulydh" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">Thay đổi trạng thái đơn hàng</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <input type="radio" name="statusdh" /> Đang xử lý &nbsp;
+                                    <input type="radio" name="statusdh"/> Đang giao hàng &nbsp;
+                                    <input type="radio" name="statusdh"/> Đã giao hàng &nbsp;
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button data-dismiss="modal" class="btn btn-default" type="button">Đóng</button>
+                                    <button data-dismiss="modal" class="btn btn-success" type="button">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- page end-->
+                </section>
+            </section>
+        </div>
+
+        <div class="form_chitietdonhang is-hidden">
+            <h1 align='center'>Chi tiết các đơn hàng</h1>
+            <section id="main-content">
+                <section class="wrapper">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <section class="panel">
+                                
+                                <div class="panel-body">
+                                    <table class="table  table-hover general-table">
+                                        <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Số ĐĐH</th>
+                                            <th>Ngày mua</th>
+                                            <th>Ngày giao dự kiến</th>
+                                            <th>Ngày giao thực tế</th>
+                                            <th>Khách hàng</th>
+                                            <th>Nhân viên</th>
+                                            <th>Trạng thái</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="listallddh listdschitietddh">
+                                        
+                                        
+                                        
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagenumberchitietddh"></div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+        
+<!-- modal avartar-->
+<div class="showmodal_changeavartar modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Thay đổi hình<i class="title_mamon_outline"></i></h4>
+            </div>							
+            <div class="modal-body" align="center">
+<form role="form" method="post" enctype="multipart/form-data">			
+    <div class="form-group">
+               <label class="col-sm-2 control-label"><span style="font-size: 13px;"></span><span style="font-size: 16px; color: #99003d;"></span>
+                </label>
+                    <div class="col-sm-3 iconimage">
+                        <input id="imgSP" style="display:none" type="file" accept="image/*">
+                        <a href="#">
+                            <label for="imgSP" class="custom-file-upload">
+                                <img width="25px" style="border:0px" src="images/iconuploadimage.png">Chọn
+                                hình</label>
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="is-hidden" id="imgSPPreview" width="150" height="150">
+                    </div
+></div>
+</form> 
+            </div>
+
+            <div class="modal-footer">
+<button type="button" class="btn btn-round btn-danger btn_update_avartar">Cập nhật</button>
+
+<button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+             
+            </div>
+        </div>
+    </div>
+</div>
+        <!--main content end-->
+        <!--footer start-->
+        <footer class="footer-section clear_left">
+            <div class="text-center">
+                2020 &copy; Admin QLBH by Cao Chí Thương
+                <a href="#" class="go-top">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+            </div>
+        </footer>
+    <!--footer end-->
+    </section>
+    <!-- Placed js at the end of the document so the pages load faster -->
+  
+    <!--Core js-->
+    <script src="js/jquery.js"></script>
+    <script src="bs3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script src="js/jQuery-slimScroll-1.3.0/jquery.slimscroll.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <!--Easy Pie Chart-->
+    <script src="jsuser/main.js"></script>
+    <script src="js/bootbox.min.js"></script>
+    <script src="./spuploadimagestatus/canvas-to-blob.min.js"></script>
+    <script src="./spuploadimagestatus/resize.js"></script>
+
+    <!--Cac loai nuoc suoi va nha san xuat-->
+    <script src="jsuser/the_loai.js"></script>
+    <script src="jsuser/thuong_hieu.js"></script>
+    <script src="jsuser/san_pham.js"></script>
+    <script src="jsuser/khach_hang.js"></script>
+    <script src="jsuser/nhan_vien.js"></script>
+    <script src="jsuser/nha_cung_cap.js"></script>
+
+    <!--Lien ket trung gian-->
+    <script src="jsuser/lktg_ncc_th.js"></script>
+    <script src="jsuser/lktg_th_sp.js"></script>
+    <script src="jsuser/lktg_tl_sp.js"></script>
+    
+    <!--Gio hang-->
+    <script src="jsuser/don_dat_hang.js"></script>
+  
+    <!--common script init for all pages-->
+    <script src="js/scripts.js"></script>
+  
+    </body>
+</html>
